@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+table thead {
+  background: #888;
+}
+
+table thead .header{
+  cursor: pointer;
+}
