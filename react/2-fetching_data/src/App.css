@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    border-radius: 8px;
+    background: orangered;
+    color: white;
+    border: none;
+    height: 30px;
+    margin: 0 0 10px 0;
+  }
+
+  section {
+    align-items: center;
+    display: flex;
+    max-width: 800px;
+
+    img {
+      width: 50%;
+    }
+  }
+}
