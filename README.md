@@ -4,7 +4,7 @@
 
 - [About the repository](#about-the-repository)
 - [Javascript Projects](#javascript-projects)
-  - [1- Node](#1--node)
+  - [1- Tetris](#1--tetris)
 - [React Projects](#react-projects)
   - [1- Table Of Users](#1--table-of-users)
   - [2- Fetching Data](#2--fetching-data)
@@ -14,6 +14,12 @@
 <p align="justify">In this repository, I'm going to upload all the technical tests I'm doing to learn the basics, logic, and skills that these asked for to have a job opportunity related with programming (specially web development)</p>
 
 ## Javascript Projects
+### 1- Tetris
+<p align="justify">The objective of this technical test is to create a simple version of tetris.</p>
+
+- [x] Add the movements to pieces and rotation
+- [x] Remove lines there's a row and add a score
+- [ ] The test should be done in 40min.
 
 ## React Projects
 ### 1- Table Of Users
