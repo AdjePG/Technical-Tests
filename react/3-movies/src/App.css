@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+
+  main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .movies {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      list-style: none;
+
+      .movie {
+        text-align: center;
+        
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
