@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  .list {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    list-style: none;
+
+    li {
+      display: flex;
+      box-sizing: border-box;
+      border-radius: 10px;
+      background: #00000055;
+      padding: 10px;
+      margin: 0 auto;
+      width: 250px;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

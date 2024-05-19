@@ -64,3 +64,13 @@ Extras:
 - [x] Avoid making the same search twice.
 - [x] Automatic search when writing in input
 - [x] Avoid constant changes when writing (debounce)
+
+### 4- Shopping
+
+<p align="justify">Create a simple shopping cart with the following things:</p>
+
+- [x] Show a list of products with a fixed provided JSON.
+- [x] Add category and price filters for products.
+- [x] Avoid innecesary props when having components.
+- [x] Add a cart button where lists selected products. Add functions for 'adding', 'removing' and 'clearing a cart'.
+- [ ] Add the fetch from the JSON original page or another API.
